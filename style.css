@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#titulo-menusuperior{
+    margin-top: 75px;
+    margin-left: 170px;
+}
+
+#texto-menusuperior{
+    margin-left: 170px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+    font-weight: 200;
+    display: inline-block;
+    text-align: justify;
+}
+
+#menu-superior{
+    background-image: url(./imgs/fundo-menusuperior.svg);
+    color: antiquewhite;
+
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon {
+    margin: 30px 0px 30px 100px;
+    padding: 15px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#video-session{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 75px 50px 75px 115px;
+}
+
+#titulovideo{
+    color:#247BA0;
+    margin-top: 75px;
+}
+
+#carrossel-session{
+    background-color: #247BA0;
+    padding: 70px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+#setaEsquerda{
+    display: none;
+    padding-top: 50%;
+}
+
+#samanta{
+    display: none;
+}
+
+.seta{
+    margin-top: 50%;
+    cursor:pointer;
+}
+
+.seta:hover{
+    transform: translateX(7px);
+    transition-duration: 0.05s;
+}
+
+
+#form-session{
+    background-color: white;
+    margin: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#titulo-formulario{
+    padding: 3%;
+}
+
+input{
+    Width: 300px;
+    Height: 30px;
+    background-color: #EAECE5;
+    margin: 10px;
+    border: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    Height: 30px;   
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #EAECE5;
+    cursor: pointer;
+
+}
+
+button:hover{
+    box-shadow: 0px 5px 10px #155f7e;
+    transition-duration: 0.5s;
+
+}
